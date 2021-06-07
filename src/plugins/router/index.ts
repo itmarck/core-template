@@ -1,6 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router'
-
-const routes = []
+import { routes } from '@/index'
 
 const router = createRouter({
   history: createWebHistory(),
