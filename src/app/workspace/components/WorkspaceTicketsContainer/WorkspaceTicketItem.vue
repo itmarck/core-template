@@ -1,7 +1,6 @@
 <template>
   <article>
-    <span>Soy un ticket</span>
-    <p>{{ ticket }}</p>
+    <p>Ticket {{ ticket.id }}</p>
   </article>
 </template>
 
