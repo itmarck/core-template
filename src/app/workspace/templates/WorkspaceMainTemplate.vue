@@ -14,11 +14,14 @@
 
 <style>
 .template {
-  display: flex;
+  gap: 1rem;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .section {
-  width: 256px;
-  border-right: 1px solid gray;
+  background-color: #fafafa;
+  padding: 1rem;
 }
 </style>
